@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    background-color: rgb(250, 234, 248);
+    background-image: radial-gradient(pink ,cyan,lightgreen, yellow, pink);
+}
+#banner{
+    background: url(Photo/photo1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.service-box{
+    width: 40%;        /*size of pictures*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+.single-service{
+    flex-basis: 48%;         /*for having two pictute in a line*/
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    color: white;
+    position: relative;
+}
+
+.single-service img{
+    border-radius: 5px;
+    width: 100%;
+}
+.overlay{
+    width: 100%;
+    height: 98%;
+    position: absolute;
+    top: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    background: linear-gradient(rgba(245, 61, 128, 0.854), #00000000);
+    opacity: 1;
+
+
+}
+.single-service:hover .overlay{
+    opacity: 1;
+    background: linear-gradient(rgba(106, 255, 0, 0.854), #00000000);
+}
+
+.single-service:hover .service-desc{
+    opacity: 1;
+    bottom: 10%;
+    text-shadow: #000;
+}
+.service-desc{
+    width: 80%;
+    position: absolute;
+    bottom: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: 1s;
+ 
+}
+
+hr{
+    background: white;
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+    width: 60%;
+}
+.single-service p{
+    font-size: 14px;
+}
+.banner-text{
+    text-align: center;
+    padding-top: 180px;
+    color:rgb(255, 255, 255);
+    font-size: 60px;
+    text-shadow: 5px -5px 4px rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+    margin-bottom: 40px;
+}
+  
+.navbar a {
+float: left;
+    padding: 12px;
+    color: rgb(233, 245, 0);
+    text-decoration: none;
+    font-size: 17px;
+    width: 23%; 
+    text-align: center;
+}
+  
+.navbar a:hover {
+    background-color: #000;
+}
+
+#Products h2{
+    text-align: center;
+    margin: 20px;
+    color: rgb(56, 8, 68);
+}
+
+#AboutUs h2{
+    text-align: center;
+    margin: 20px;
+    color: rgb(56, 8, 68);
+}
+#Login h2{
+    text-align: center;
+    margin: 20px;
+    color: rgb(56, 8, 68);
+}
+p{
+    padding: 40px;
+    text-align: justify;
+}
+#Login img{
+    width: 50%;
+    border-radius: 30px;
+}
+#footer{
+    text-align: center;
+    background-color: blueviolet;
+}
+#footer p{
+    text-align: center;
+}
+#form{
+    text-align: center;
+}
+#form hr{
+    background: rgb(129, 11, 117);
+    height: 1px;
+    margin: 15px auto;
+    width: 60%;
+}
+

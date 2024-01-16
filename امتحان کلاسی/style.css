@@ -1,0 +1,89 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+#banner{
+  background: url(photo/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+#banner h1{
+  color: aliceblue;
+  font-size: 160px;
+  position: relative;
+  top: 300px;
+  text-align: center;
+}
+
+#navbar{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+#navbar nav a{
+  text-decoration: none;
+  color: aliceblue;
+  margin: 20px;
+  padding: 50px;
+  font-size: 30px;
+}
+
+#navbar nav a:hover{
+  text-decoration: none;
+  color: gold;
+  font-weight: bolder;
+}
+#welcome{
+  margin: 30px;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+  }
+
+#marquee_pic marquee img{
+  width: 150px;
+  margin: 50px;
+  margin-left: 300px;
+}
+.articels h2{
+  color: rgb(28, 97, 74);
+  padding-left: 30px;
+
+}
+.articels p{
+  color: brown;
+  text-align: justify;
+  margin: 30px;
+}
+
+.articels table{
+  margin: 50px;
+  border-collapse: collapse;
+  width: 60%;
+  border-color: brown;
+  color: cadetblue;
+  padding: 10px;
+}
+
+.articels table th {
+  padding: 20px;
+  text-align: center;
+  background-color: brown;
+  color: ;
+}
+.articels table td {
+  padding: 40px;
+  text-align: center;
+}  
+
+footer{
+  background-color: aquamarine;
+  color: rgb(28, 97, 74);
+  text-align: center;
+  padding: 100px;
+}

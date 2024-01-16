@@ -1,0 +1,93 @@
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position:relative;
+    padding: 5px;
+    margin: 5px;
+    
+}
+p{
+    text-align: left;
+    color: rgb(255, 255, 255);
+    position: relative;
+    text-align: center;
+
+
+}
+.tst1{
+    text-align: center;
+    color: rgb(255, 0, 102);
+}
+#tst1{
+    top: 30px;
+    padding: 30px;
+    margin: 20px;
+
+}
+#p2{
+    background-image: url("th.jfif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: justify;
+    font-size: large;
+    width: 50%;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+    height: 200px;
+    left: 25%;
+    top: 160px;
+    color: rgb(213, 228, 1);
+}
+.service-box{
+    width: 40%;        /*size of pictures*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+.single-service{
+    flex-basis: 48%;         /*for having two pictute in a line*/
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    color: white;
+    position: relative;
+}
+
+.single-service img{
+    border-radius: 5px;
+    width: 100%;
+}
+.overlay{
+    width: 100%;
+    height: 98%;
+    position: absolute;
+    top: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    background: linear-gradient(rgba(245, 61, 128, 0.854), #00000081);
+    opacity: 1;
+
+
+}
+.service-desc{
+    width: 80%;
+    position: absolute;
+    bottom: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 1;
+ 
+}
+
+hr{
+    background: white;
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+    width: 60%;
+}
+.single-service p{
+    font-size: 14px;
+}
