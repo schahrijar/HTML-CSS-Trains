@@ -1,0 +1,208 @@
+body{
+    box-shadow: inset 2px 2px 20px 2px blue;
+}
+.flower:hover{
+    transform: translateY(-10px);
+}
+.header1{
+    content: '';
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(#003dff,rgba(255, 0, 0, 0.37));
+    position: absolute;
+    top: 60px;
+    left: 750px;
+    z-index: -1;
+    border-bottom-right-radius: 510px;
+    border-top-left-radius: 510px;
+    border-top-right-radius: 300px;
+    box-shadow: 5px -5px 5px 1px #efa5b6;
+}
+.header2{
+    content: '';
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(#003dff, rgba(255, 0, 0, 0.37));
+    position: absolute;
+    top: 60px;
+    left: 650px;
+    z-index: -1;
+    border-bottom-left-radius: 510px;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 510px;
+    box-shadow: -5px -5px 5px 1px #efa5b6;
+}
+.header3{
+    content: '';
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(rgba(255, 0, 0, 0.37),#003dff);
+    position: absolute;
+    top: 160px;
+    left: 750px;
+    z-index: -1;
+    border-bottom-left-radius: 510px;
+    border-top-right-radius: 510px;
+    border-bottom-right-radius: 300px;
+    box-shadow: 5px 5px 5px 1px #efa5b6;
+}
+.header4{
+    content: '';
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(rgba(255, 0, 0, 0.37),#003dff);
+    position: absolute;
+    top: 160px;
+    left: 650px;
+    z-index: -1;
+    border-bottom-right-radius: 510px;
+    border-top-left-radius: 510px;
+    border-bottom-left-radius: 300px;
+    box-shadow: -5px 5px 5px 1px #efa5b6;
+}
+h1{
+    color: #480000;
+    margin: 120px 40%;
+    display: inline-block;
+    text-shadow: #efa5b6 3px 3px 2px, #efa5b6 4px 5px 2px;
+    flex-basis: 28%;
+    cursor: pointer;
+}
+
+.comment-rows{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.comment-cols{
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 3px #a74a4a;
+    flex-basis: 28%;
+    cursor: pointer;
+}
+
+.user-photo img{
+    width: 60px;
+}
+.comment-cols:hover{
+    transform: translateY(-10px);
+}
+.cart{
+    text-align: center;
+    padding-right: 20px;
+    display: block;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cart-title{
+    color: #0b3102;
+    z-index: 1;
+
+}
+.cart-img{
+    width: 250px;
+    box-shadow: 0px 4px 0px 0px #0b3102,0px 114px 0px 0px #4bb908,0px -60px 0px 0px rgba(75, 185, 8, 0.16);
+    margin: 5px;
+    text-align: center;
+    border: 1px solid green;
+    z-index: -1;
+
+}
+.cart-footer{
+    color: rgb(212, 234, 198);
+
+}
+.s1{
+    background-color: yellow;
+    margin: 30px;
+}
+.s2{
+    background-color: green;
+    margin: 30px;
+}
+.b1{
+    display: block;
+    margin: 20px;
+    background-color: aquamarine;
+    margin: 30px;
+}
+.b2{
+    display: block;
+    margin: 30px;
+    background-color: rosybrown;
+    margin: 30px;
+}
+.b2 :hover{
+    transform: translateY(-10px);
+}
+.hide{
+    display: none;
+}
+.container2{
+    display: flex;
+    background-color: aqua;
+    color: yellow;
+    margin: 30px;
+
+}
+.item{
+    background-color: green;
+    color: rosybrown;
+    font-size: 45px;
+    padding: 20px;
+    margin: 5px;
+}
+
+
+.container3{
+    display: flex;
+    background-color: #ffae00;
+    color: yellow;
+    flex-direction: row-reverse;
+    margin: 30px;
+
+}
+.item2{
+    background-color: green;
+    color: rosybrown;
+    font-size: 45px;
+    padding: 20px;
+    margin: 5px;
+}
+.container4{
+    display: flex;
+    background-color: #76804a;
+    color: yellow;
+    flex-direction: column-reverse;
+    margin: 30px;
+    }
+
+.container5{
+    display: flex;
+    background-color: #d55975;
+    color: #efa5b6;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+.item3{
+    background-color: #ffffff;
+    color: #ff0c0c;
+    font-size: 45px;
+    padding: 5%;
+    margin: 50px;
+}
+h2{
+    margin: 30px;
+}
