@@ -1,0 +1,110 @@
+.d1{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+}
+div:hover {
+    width: 300px;
+}
+.d2{
+    width: 100px;
+    height: 100px;
+    background-color: #22ff00;
+    transition: width 2s;
+    transition-timing-function: linear;
+}
+input[type="text"]{
+    width: 100px;
+    -webkit-transition: width .35s ease-in-out;
+    color:black;
+}
+input[type="text"]:focus{
+    width: 250px;
+    background-color: aquamarine;
+    color: #fff;
+}
+#div1 {
+    width: 300px;
+    height: 150px;
+    background-color:rebeccapurple;
+    border: solid black;
+    transform:translate(50px, 100px);
+}
+#div2 {
+    width: 100px;
+    height: 100px;
+    background-color:rgb(51, 117, 153);
+    transition: 4s;
+    margin: 150px;
+}
+#div2:hover{
+    transform: rotate(360deg);
+}
+
+#div3 {
+    width: 100px;
+    height: 100px;
+    background-color:rgb(246, 117, 205);
+    transition: 4s;
+    margin: 150px;
+}
+#div3:hover{
+    transform: scale(2, 1.5);
+}
+img{
+    border-radius: 50%;
+    transition: 0.6s;
+    margin: 50px;
+}
+img:hover{
+    transform: rotate(360deg) scale(2, 1.5);
+}
+#div4 {
+    width: 100px;
+    height: 100px;
+    background-color:rgb(107, 203, 118);
+    transition: 4s;
+    margin: 150px;
+}
+#div4:hover{
+    transform: skew(20deg, 110deg);
+}
+#div5 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:orange;
+    margin: 150px;
+    animation-name: choose_name;
+    animation-delay: 10s;
+    animation-duration: 14s;
+}
+@keyframes choose_name {
+   from {background-color: #22ff00 ;border-radius: 0%;}
+    to{background-color: orange ;border-radius: 50%;}
+}
+
+p{
+    column-count: 3;
+    text-align: justify;
+}
+/*.tooltip .tooltiptext::after{*/
+/*    border-style: solid;*/
+/*    border-color: red transparent transparent transparent;*/
+/*}*/
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(218, 11, 11);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;}
+.tooltip:hover .tooltiptext{
+  visibility: visible;
+}

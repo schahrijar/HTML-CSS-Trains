@@ -1,0 +1,87 @@
+.image1{
+    float: left;
+    margin: 20px;
+}
+.image2{
+    float: right;
+    margin: 20px;
+}
+
+.mygrid{
+    background-color: rebeccapurple;
+    color: #203b56;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+}
+.g1{
+    background-color: #33997c;
+    color: #c98c8c;
+    font-size: 25px;
+    margin: 15px;
+    padding: 30px;
+    text-align: center;
+}
+.alink{
+    display: block;
+    text-decoration: none;
+    background-color: green;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    margin: 30px;
+}
+.alink:hover{
+    background-color: orange;
+}
+.container{
+    background-color: #c98c8c;
+    color: #203b56;
+    display: flex;
+    flex-direction: row;
+
+}
+.item{
+    background-color: aqua;
+    color: black;
+    font-size: 25px;
+    margin: 5px;
+    padding: 60px;
+
+}
+
+.grow_2{
+    flex-grow: 4;
+}
+.grow_4{
+    flex-grow: 6;
+}
+.conteiner2{
+    background-color: #33997c;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 50px;
+}
+.item_8{
+    background-color: #999133;
+    color: #ad1a1a;
+    font-size: 25px;
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+}
+.order1{
+    order:3;
+}
+.order2{
+    order:2;
+}
+.order3{
+    order:4;
+}
+.order4{
+    order:1;
+}
